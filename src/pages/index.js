@@ -1,15 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
+import backgroundStyles from "./background.module.scss"
+import grass from "../posts/gatsby/grass.png"
 
 const IndexPage = () => {
   return (
-    <div>
+    <div className={backgroundStyles.container}>
       <Head title="Home" />
       <Layout>
-        <h1>The Great Gatsby</h1>
-        <h2>I'm Param, a full-stack developer living in Chennai.</h2>
+        <h1>Full Stack Developer</h1>
+        <p>
+          I am a software developer currently living in Chennai.I specialize in
+          building applications specific to the business needs of my clients. I
+          have done work in software development, front-end/back-end web and
+          database/server management
+        </p>
+        <img src={grass} alt={grass} />
       </Layout>
     </div>
   )

@@ -2,10 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
+import backgroundStyles from "./background.module.scss"
 
 export default function AboutPage() {
   return (
-    <div>
+    <div className={backgroundStyles.container}>
       <Layout>
         <Head title="About" />
         <h1>About Page</h1>

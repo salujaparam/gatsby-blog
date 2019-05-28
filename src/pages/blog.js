@@ -3,6 +3,7 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 import Layout from "../components/layout"
 import blogStyles from "./blog.module.scss"
 import Head from "../components/head"
+import backgroundStyles from "./background.module.scss"
 
 export default function BlogPage() {
   const data = useStaticQuery(graphql`
@@ -21,7 +22,7 @@ export default function BlogPage() {
   `)
 
   return (
-    <div>
+    <div className={backgroundStyles.container}>
       <Layout>
         <Head title="Blog" />
         <h1>Blogs</h1>

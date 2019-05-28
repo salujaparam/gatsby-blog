@@ -1,10 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
+import backgroundStyles from "./background.module.scss"
 
 export default function ContactPage() {
   return (
-    <div>
+    <div className={backgroundStyles.container}>
       <Layout>
         <Head title="Contact" />
         <h1>Contact Page</h1>
