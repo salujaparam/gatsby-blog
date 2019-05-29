@@ -10,7 +10,7 @@ export default function ContactPage() {
         <Head title="Contact" />
         <h1>Contact Page</h1>
         <p>
-          The best way to reach me is via{" "}
+          The best way to reach me at the moment is via{" "}
           <a
             href="https://www.linkedin.com/in/param-saluja-8a011a171/"
             target="_blank"

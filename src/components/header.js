@@ -38,7 +38,7 @@ export default function Header() {
               activeClassName={headerStyles.activeNavItem}
               to="/blog"
             >
-              Blog
+              Blogs
             </Link>
           </li>
           <li>
@@ -48,6 +48,15 @@ export default function Header() {
               to="/about"
             >
               About
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/projects"
+            >
+              Projects
             </Link>
           </li>
           <li>

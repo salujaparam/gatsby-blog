@@ -25,7 +25,6 @@ export default function BlogPage() {
     <div className={backgroundStyles.container}>
       <Layout>
         <Head title="Blog" />
-        <h1>Blogs</h1>
         <ol className={blogStyles.posts}>
           {data.allContentfulBlogPost.edges.map(edge => {
             return (
