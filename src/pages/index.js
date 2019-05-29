@@ -11,10 +11,12 @@ const IndexPage = () => {
       <Layout>
         <h1>Full Stack Developer</h1>
         <p>
-          I am a software developer currently living in Chennai.I specialize in
-          building applications specific to the business needs of my clients. I
-          have done work in software development, front-end/back-end web and
-          database/server management
+          Currently an undergrad and working on the domain of full stack
+          development.I am a student pursuing my B.Tech. in Computer Science
+          Engineering.I specialize in building applications specific to the
+          business needs of my clients. I have done work in software
+          development, front-end and back-end web development using various
+          libraries, mostly concerned with JavaScript.
         </p>
         <img src={photo} alt="Param Saluja" />
       </Layout>
