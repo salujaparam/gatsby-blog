@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import Layout from "../components/layout"
+import Head from "../components/head"
 import backgroundStyles from "./background.module.scss"
 import projectStyles from "./projects.module.scss"
 
