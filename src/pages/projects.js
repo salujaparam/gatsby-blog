@@ -25,6 +25,7 @@ export default function Projects() {
   return (
     <div className={backgroundStyles.container}>
       <Layout>
+        <Head title="Projects" />
         <div className={projectStyles.project}>
           <ul className={projectStyles.styles}>
             {data.allContentfulProjects.edges.map(edge => {
