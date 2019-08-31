@@ -70,7 +70,7 @@ export default function Header() {
             </Link>
           </li>
         </ul>
-        <ul className={headerStyles.navList}>
+        <ul className={headerStyles.navSocialList}>
           <li>
             <a href="https://www.linkedin.com/in/param-saluja-8a011a171/" target="_blank" rel="noopener noreferrer"
                   className={headerStyles.navItem}
