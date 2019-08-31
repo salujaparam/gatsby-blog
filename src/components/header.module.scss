@@ -14,6 +14,13 @@
   margin: 0;
 }
 
+.nav-main-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  justify-content: space-between
+}
+
 .nav-item {
   color: #777777;
   font-size: 1.1rem;
@@ -26,5 +33,17 @@
 }
 
 .active-nav-item {
+  color: #333333;
+}
+
+.nav-links {
+  list-style-type: none;
+  transition: var(--mainTransition);
+  height: 0;
+  overflow: hidden;
+  color: #777777;
+}
+
+.nav-links:hover {
   color: #333333;
 }
