@@ -12,7 +12,7 @@ const IndexPage = () => {
         <h1>Full Stack Developer</h1>
         <p>
           Currently an undergrad and working on the domain of full stack
-          development.I am a student pursuing my B.Tech. in Computer Science
+          development.I am  pursuing my B.Tech. in Computer Science
           Engineering.I specialize in building applications specific to the
           business needs of my clients. I have done work in software
           development, front-end and back-end web development using various

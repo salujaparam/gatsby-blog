@@ -1,3 +1,34 @@
 .footer {
   margin-top: 3rem;
+  text-align: center;
+}
+
+.footer-social-list {
+  display: none;
+}
+
+.footer-item {
+  color: #777777;
+  font-size: 1.1rem;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+
+.footer-item:hover {
+  color: #555555;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .footer{
+    text-align: center;
+  }
+
+  .footer-social-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    justify-content: center;
+  }
+
 }
