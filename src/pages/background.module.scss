@@ -11,3 +11,23 @@
     #1c92d2
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.image{
+  display: flex;
+}
+
+.img{
+  padding-right: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .image{
+    display: inline;
+  }
+  .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
