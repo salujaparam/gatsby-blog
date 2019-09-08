@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import headerStyles from "./header.module.scss"
-import {FaLinkedin, FaGithub, FaTwitterSquare, FaHackerrank, FaInstagram} from 'react-icons/fa'
+import {FaLinkedin, FaGithub, FaTwitterSquare, FaHackerrank, FaDiscord} from 'react-icons/fa'
 
 export default function Header() {
   const data = useStaticQuery(graphql`
@@ -100,10 +100,10 @@ export default function Header() {
           </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/param.saluja/" target="_blank" rel="noopener noreferrer"
+            <a href="https://discord.gg/dH4r3j8" target="_blank" rel="noopener noreferrer"
                 className={headerStyles.navItem}
             >
-              <FaInstagram />
+              <FaDiscord/>
             </a>
           </li>
         </ul>
