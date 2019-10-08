@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import footerStyles from "./footer.module.scss"
-import {FaLinkedin, FaGithub, FaTwitterSquare, FaHackerrank, FaDiscord} from 'react-icons/fa'
+import {FaLinkedin, FaGithub, FaWhatsapp, FaEnvelope, FaDiscord} from 'react-icons/fa'
 
 
 export default function Footer() {
@@ -34,17 +34,17 @@ export default function Footer() {
             </a>
           </li>
           <li>
-          <a href="https://twitter.com/param53602815" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/919566056677" target="_blank" rel="noopener noreferrer"
                 className={footerStyles.footerItem}
             >
-              <FaTwitterSquare />
+              <FaWhatsapp />
           </a>
           </li>
           <li>
-          <a href="https://www.hackerrank.com/salujaparam646" target="_blank" rel="noopener noreferrer"
+          <a href="mailto:salujaparam@gmail.com?compose=new" target="_blank" rel="noopener noreferrer"
                 className={footerStyles.footerItem}
             >
-              <FaHackerrank />
+              <FaEnvelope />
           </a>
           </li>
           <li>
