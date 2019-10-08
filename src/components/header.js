@@ -93,7 +93,7 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="mailto:salujaparam@gmail.com?compose=new" target="_blank" rel="noopener noreferrer"
+            <a href="mailto:salujaparam646@gmail.com?compose=new" target="_blank" rel="noopener noreferrer"
                 className={headerStyles.navItem}
             >
               <FaEnvelope/>
